@@ -7,7 +7,9 @@
 
 body {
     font-family: "Inter", sans-serif;
-    font-style: normal;
+    color: #303030;
+    width: 1440px;
+    height: 2047px;
 }
 
 header {
@@ -51,7 +53,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
 }
 
 
@@ -60,6 +62,7 @@ header span {
     fill: #fff;
     width: 1440px;
     height: 883px;
+    padding: 100px 0;
 
 
 
@@ -87,7 +90,7 @@ select {
     font-weight: 700;
     font-size: 24px;
     color: #303030;
-    margin-bottom: 82px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
@@ -95,9 +98,9 @@ select {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
-    padding-left: 20px;
+    padding: 0 20px;
     list-style-image: url("./assets/images/Vector.png") ;
-    margin-top: 25px 0;
+    margin-top: 25px;
 }
 
 .books-list {
@@ -165,7 +168,6 @@ table {
 
 th, td {
     /* Стили для ячеек таблицы */
-    padding-top: 11px;
     padding-left: 15px;
     padding-bottom: 12px;
 
@@ -178,6 +180,7 @@ footer {
     width: 1440px;
     height: 70px;
     margin-top: 97px;
+    padding: 26px 0;
 
 
 }
@@ -187,6 +190,6 @@ footer {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
-
+    text-decoration-line: none;
 
 }
